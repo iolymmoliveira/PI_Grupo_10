@@ -29,14 +29,14 @@ Para a primeira entrega foi proposto o processo de modelagem de projeto voltado 
 ##### Diagrama de Caso de Uso:
 <br>
 
-![Diagrama de caso de uso](/PI_Grupo_10/assets/images/caso_de_uso.jpg)
+![Diagrama de caso de uso](assets/images/caso_de_uso.jpg)
 
 <br>
 
 
 ##### Diagrama de Classes:
 
-![Diagrama de Classes](/PI_Grupo_10/assets/images/Diagrama_de_classe.jpg)
+![Diagrama de Classes](assets/images/Diagrama_de_classe.jpg)
 
 ---
 
