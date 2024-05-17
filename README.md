@@ -18,20 +18,69 @@ Para a primeira entrega foi proposto o processo de modelagem de projeto voltado 
   - Professores
   - Fornecedores 
   - Alunos
+<br>
 
 - Elaborar a descrição de cenários dos casos de uso construídos, levando em consideração um cenário principal, dois cenários alternativos, pré-condição e pós-condição;
+<br>
 
 - Elaborar um diagrama de classe que esteja de acordo com a proposta do projeto;
+<br>
 
 ##### Diagrama de Caso de Uso:
+<br>
+
+![Diagrama de caso de uso](/PI_Grupo_10/assets/images/caso_de_uso.jpg)
+
+<br>
+
 
 ##### Diagrama de Classes:
+
+![Diagrama de Classes](/PI_Grupo_10/assets/images/Diagrama_de_classe.jpg)
 
 ---
 
 ### 2ª Entrega
 
+Para a segunda entrega foi proposto o processo de prototipação do que foi formalizado na primeira entrega. A proposta é que o protótipo deve refletir a modelagem realizada anteriormente, portanto o grupo deve desenvolver um projeto funcional com ferramentas como Miro ou Figma. O protótipo deve conter as seguintes jornadas:
 
+  - Cadastro de Pessoa Física
+  - Cadastro de Pessoa Jurídica
+  - Cadastro de Professores
+  - Cadastro de Fornecedores 
+  - Cadastro de Alunos
+
+Como entrega opcional foi proposto o desenvolvimento das interfaces prototipadas, utilizando HTML, CSS e conectando com o backend desenvolvido em Java, em que o backend  deverá conter as classes que foram modeladas na fase 1 do projeto.
+<br>
+
+##### Tela de Login
+<br>
+
+##### Painel de Usuário 
+Tela para o usuário que se logou na plataforma.
+<br>
+
+##### Tela de Logout
+Tela para o usuário que se deslogou na plataforma.
+<br>
+
+##### Tela de Cadastro
+<br>
+
+##### Cadastro de Pessoa Física
+<br>
+
+##### Cadastro de Pessoa Jurídica
+<br>
+
+##### Cadastro de Professor
+<br>
+
+##### Cadastro de Aluno
+<br>
+
+##### Cadastro de Fornecedor
+<br>
 
 ---
 
