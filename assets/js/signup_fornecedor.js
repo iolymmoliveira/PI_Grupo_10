@@ -22,3 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'login.html';
     });
 });
+ // Adiciona um listener para o evento 'submit' do formulário
+ document.getElementById("signup-form").addEventListener("submit", function(event) {
+    // Evita o envio padrão do formulário
+    event.preventDefault();
+    // Redireciona para a página de sucesso
+    window.location.href = "/sucesso.html";
+});

@@ -1,36 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-}
+/* form.css */
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #333;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #111;
-}
-
-
-
+/* Container */
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -39,28 +11,51 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Form Header */
 .container h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
+/* Flex Group */
+.flex-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
 
+.flex-group-tight {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-item-tight {
+    flex: 1;
+}
+
+/* Form Group */
 .form-group {
     margin-bottom: 15px;
 }
 
-
+/* Label */
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-
+/* Input and Select */
 .form-group input[type="text"],
 .form-group input[type="email"],
-.form-group input[type="password"] {
+.form-group input[type="tel"],
+.form-group input[type="password"],
+.form-group select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -69,6 +64,16 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
+/* Adjustments for DDD and Phone */
+#ddd {
+    max-width: 50px;
+}
+
+#phone, #phone2 {
+    max-width: 170px;
+}
+
+/* Button */
 button[type="submit"] {
     width: 100%;
     padding: 10px;

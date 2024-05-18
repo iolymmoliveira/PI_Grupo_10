@@ -5,18 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Minha Faculdade</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/dashboard.css"> 
 </head>
 <body>
     <div class="container">
         <h2>Cadastro</h2>
         <p>Escolha o tipo de conta:</p>
-        <ul>
-            <li><a href="/assets/paginas/signup_pf.html">Pessoa Física</a></li>
-            <li><a href="/assets/paginas/signup_cnpj.html">Pessoa Jurídica</a></li>
-            <li><a href="/assets/paginas/signup_professor.html">Professor</a></li>
-            <li><a href="/assets/paginas/signup_aluno.html">Aluno</a></li>
-            <li><a href="/assets/paginas/signup_fornecedor.html">Fornecedor</a></li>
+        
+        <div>
+            <input type="radio" id="pf" name="accountType" value="pf">
+            <label for="pf">Pessoa Física</label>
+            
+            <input type="radio" id="pj" name="accountType" value="pj">
+            <label for="pj">Pessoa Jurídica</label>
+        </div>
+        
+
+        <ul id="linkList">
+            <li class="link-item pf"><a href="/assets/paginas/signup_pf.html">Pessoa Física</a></li>
+            <li class="link-item pj"><a href="/assets/paginas/signup_cnpj.html">Pessoa Jurídica</a></li>
+            <li class="link-item pf"><a href="/assets/paginas/signup_professor.html">Professor (PF)</a></li>
+            <li class="link-item pf"><a href="/assets/paginas/signup_aluno.html">Aluno (PF)</a></li>
+            <li class="link-item pj"><a href="/assets/paginas/signup_fornecedor.html">Fornecedor (PJ)</a></li>
         </ul>
     </div>
+
+    <script src="/assets/js/dashboard.js"></script> 
 </body>
 </html>

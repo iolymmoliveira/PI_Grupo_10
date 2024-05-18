@@ -22,3 +22,30 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'login.html';
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var phoneInput = document.getElementById("phone");
+    var phone2Input = document.getElementById("phone2");
+
+    phoneInput.addEventListener("input", function() {
+        phoneInput.value = formatPhoneNumber(phoneInput.value);
+    });
+
+    phone2Input.addEventListener("input", function() {
+        phone2Input.value = formatPhoneNumber(phone2Input.value);
+    });
+
+    function formatPhoneNumber(phoneNumber) {
+        phoneNumber = phoneNumber.replace(/\D/g, ""); // Remove caracteres não numéricos
+        phoneNumber = phoneNumber.replace(/^(\d{2})(\d{5})(\d{4})$/, "($1) $2-$3"); // Formato: (XX) XXXXX-XXXX
+        return phoneNumber;
+    }
+});
+
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    window.location.href = "/sucesso.html";
+});
