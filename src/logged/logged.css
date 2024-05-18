@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #001f3f, #00ff85);
+}
+.menu {
+  width: 100%;
+  background-color: #001f3f;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .left, .menu .right {
+  display: flex;
+  align-items: center;
+}
+.menu .left button {
+  background-color: #00ff85;
+  /* color: white; */
+  color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.menu .left button:hover {
+  opacity: 0.8;
+}
+.menu .right button {
+  background-color: white;
+  color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.menu .right button:hover {
+  background-color: #f0f0f0;
+}
+.content {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  margin: 20px 0;
+}

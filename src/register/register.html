@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Sistema de Universidade</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="container">
+        <div id="register-container" class="form-container">
+            <h2>Cadastro</h2>
+            <div class="form-group">
+                <label for="tipo-cadastro">Cadastrar como:</label>
+                <select id="tipo-cadastro" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="pessoa_fisica">Pessoa Física</option>
+                    <option value="pessoa_juridica">Pessoa Jurídica</option>
+                </select>
+            </div>
+
+            <!-- Pessoa Física Option -->
+            <div id="pessoa-fisica-options" class="hidden">
+                <div class="form-group">
+                    <label for="tipo-pessoa-fisica">Você é:</label>
+                    <select id="tipo-pessoa-fisica" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="aluno">Aluno</option>
+                        <option value="professor">Professor</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Pessoa Física Form -->
+            <form id="pessoa-fisica-form" class="hidden">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" required>
+                </div>
+                <div class="form-group">
+                    <label for="estado_civil">Estado Civil</label>
+                    <input type="text" id="estado_civil" name="estado_civil" required>
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo</label>
+                    <input type="text" id="sexo" name="sexo" required>
+                </div>
+                <div class="form-group">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div id="professor-fields" class="hidden">
+                    <div class="form-group">
+                        <label for="titulacao">Titulação</label>
+                        <input type="text" id="titulacao" name="titulacao">
+                    </div>
+                    <div class="form-group">
+                        <label for="area_atuacao">Área de Atuação</label>
+                        <input type="text" id="area_atuacao" name="area_atuacao">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmar_senha">Confirmar Senha</label>
+                    <input type="password" id="confirmar_senha" name="confirmar_senha" required>
+                </div>
+                <button id="submit-cadastro" type="submit">Cadastrar</button>
+            </form>
+
+            <!-- Pessoa Jurídica Form -->
+            <form id="pessoa-juridica-form" class="hidden">
+                <div class="form-group">
+                    <label for="nome_juridico">Nome</label>
+                    <input type="text" id="nome_juridico" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="cnpj">CNPJ</label>
+                    <input type="text" id="cnpj" name="cnpj" required>
+                </div>
+                <div class="form-group">
+                    <label for="insc_estadual">Inscrição Estadual</label>
+                    <input type="text" id="insc_estadual" name="insc_estadual" required>
+                </div>
+                <div class="form-group">
+                    <label for="nome_fantasia">Nome Fantasia</label>
+                    <input type="text" id="nome_fantasia" name="nome_fantasia" required>
+                </div>
+                <div class="form-group">
+                    <label for="email_juridico">Email</label>
+                    <input type="email" id="email_juridico" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="data_cadastro">Data de Cadastro</label>
+                    <input type="date" id="data_cadastro" name="data_cadastro">
+                </div>
+                <div class="form-group">
+                    <label for="setor">Setor</label>
+                    <input type="text" id="setor" name="setor">
+                </div>
+                <div class="form-group">
+                    <label for="senha_juridica">Senha</label>
+                    <input type="password" id="senha_juridica" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmar_senha_juridica">Confirmar Senha</label>
+                    <input type="password" id="confirmar_senha_juridica" name="confirmar_senha" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p class="signup-text">Já tem uma conta? <a href="../login/login.html" id="show-login-form">Realizar Login</a></p>
+        </div>
+    </div>
+
+    <script src="./register.js"></script>
+</body>
+</html>
