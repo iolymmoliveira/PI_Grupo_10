@@ -98,13 +98,8 @@ Tela para o usuário que se deslogou na plataforma.
 
 ##### <center>Demonstração do Fluxo de Login/Cadastro</center>
 
-![Fluxo](assets/videos/fluxo.mp4)
-
+https://github.com/iolymmoliveira/PI_Grupo_10/blob/main/assets/videos/fluxo.mp4
 <br>
-
-<video width="100%" controls>
-  <source src="fluxo.mp4" type="video/mp4">
-</video>
 
 ---
 
