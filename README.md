@@ -98,7 +98,8 @@ Tela para o usuário que se deslogou na plataforma.
 
 ##### <center>Demonstração do Fluxo de Login/Cadastro</center>
 
-https://github.com/iolymmoliveira/PI_Grupo_10/blob/main/assets/videos/fluxo.gif
+![Tela de Login](assets/videos/fluxo.gif)
+
 <br>
 ---
 
