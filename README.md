@@ -101,6 +101,7 @@ Tela para o usuário que se deslogou na plataforma.
 ![Tela de Login](assets/videos/fluxo.gif)
 
 <br>
+
 ---
 
 <!-- SVG por DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
