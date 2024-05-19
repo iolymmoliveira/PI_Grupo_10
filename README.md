@@ -99,9 +99,10 @@ Integrantes | <img src="./assets/images/github.gif" width="25">Github <img src="
 
 ---
 
-<center>SENAC - Serviço Nacional de Aprendizagem Comercial</center>
+##### <center>SENAC - Serviço Nacional de Aprendizagem Comercial</center>
 
-<center>EAD - Ensino à Distância - 2024</center>
+##### <center>EAD - Ensino à Distância - 2024</center>
+
 <br>
 
 <div align="center">
