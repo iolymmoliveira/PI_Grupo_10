@@ -81,7 +81,7 @@ Tela para o usuário que se deslogou na plataforma.
 <br>
 
 ##### Cadastro de Pessoa Jurídica
-![Tela de Login](assets/images/signup_pf_pf.png)
+![Tela de Login](assets/images/signup_pj_pj.png)
 <br>
 
 ##### Cadastro de Professor
