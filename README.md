@@ -90,7 +90,7 @@ Tela para o usuário que se deslogou na plataforma.
   <img src="https://readme-typing-svg.herokuapp.com?lines=Análise+e+Desenvolvimento+de+Sistemas&center=false&width=640&height=45"></a>
 </p>
 
-Integrantes | <img src="images/github.gif" width="25">Github <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="25">
+Integrantes | <img src="./assets/images/github.gif" width="25">Github <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="25">
 :---------- | :-----: 
 :woman_technologist: Ioly Mayara Mesquita Oliveira | <a>https://github.com/iolymmoliveira/iolymmoliveira</a> 
 :man_technologist: Jordan Felipe de Souza | <a>https://github.com/JordanFlp</a> 
@@ -105,7 +105,5 @@ Integrantes | <img src="images/github.gif" width="25">Github <img src="https://u
 <br>
 
 <div align="center">
-
-  <iframe src="https://giphy.com/embed/L1qzJ9D2HYDALltlaN" width="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/senacro-senacrondonia-logosenac-logo-senac-L1qzJ9D2HYDALltlaN"></a>
-
+  <img src="./assets/images/logo_senac.png" width="200">
 </div>
