@@ -54,33 +54,57 @@ Como entrega opcional foi proposto o desenvolvimento das interfaces prototipadas
 <br>
 
 ##### Tela de Login
+
+![Tela de Login](assets/images/login.png)
 <br>
 
 ##### Painel de Usuário 
 Tela para o usuário que se logou na plataforma.
+![Tela de Login](assets/images/dashboard.png)
+<br>
+
+##### Perfil de Usuário 
+![Tela de Login](assets/images/profile.png)
 <br>
 
 ##### Tela de Logout
 Tela para o usuário que se deslogou na plataforma.
+![Tela de Login](assets/images/logout.png)
 <br>
 
 ##### Tela de Cadastro
+![Tela de Login](assets/images/signup.png)
 <br>
 
 ##### Cadastro de Pessoa Física
+![Tela de Login](assets/images/signup_pf_pf.png)
 <br>
 
 ##### Cadastro de Pessoa Jurídica
+![Tela de Login](assets/images/signup_pf_pf.png)
 <br>
 
 ##### Cadastro de Professor
+![Tela de Login](assets/images/signup_pf_professor.png)
 <br>
 
 ##### Cadastro de Aluno
+![Tela de Login](assets/images/signup_pf_aluno.png)
 <br>
 
 ##### Cadastro de Fornecedor
+![Tela de Login](assets/images/signup_pj_fornecedor.png)
 <br>
+
+##### <center>Demonstração do Fluxo de Login/Cadastro</center>
+
+![Fluxo](assets/videos/fluxo.mp4)
+
+<br>
+
+<video width="100%" controls>
+  <source src="fluxo.mp4" type="video/mp4">
+</video>
 
 ---
 
